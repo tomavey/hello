@@ -4,7 +4,7 @@
   >
     <img
       src="https://hello.everhost.io/logo.svg"
-      alt="Everhost Logo"
+      alt="Everhost Logo1"
       class="w-24 h-24 mb-6"
     />
     <h1 class="text-4xl font-bold mb-2 text-gray-900">Welcome to Everhost</h1>
