@@ -4,23 +4,23 @@
       <header class="et-l et-l--header">
         <div class="et_builder_inner_content et_pb_gutters3">
           <div
-            class="et_pb_section et_pb_section_0_tb_header et_section_regular"
-          ></div>
-          <div
-            class="et_pb_column et_pb_column_2_3 et_pb_column_1_tb_header et_pb_css_mix_blend_mode_passthrough et-last-child"
+            style="
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              margin-bottom: 1rem;
+            "
           >
-            <a
-              class="et_pb_button et_pb_button_one et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
-              href="https://hello.everhost.io/blog/"
-              target="_blank"
-              data-icon="&#xf061;"
-              data-dsm-lightbox-id="dsm_button_one_lightbox dsm_button_0_tb_header"
-              >Blog</a
-            >
+            <img
+              src="/assets/images/everhost.png"
+              alt="Everhost Logo"
+              style="height: 48px; width: auto"
+            />
             <a
               class="et_pb_button et_pb_button_two et_pb_bg_layout_light dsm-none"
               href="https://manage.everhost.io/"
               data-dsm-lightbox-id="dsm_button_two_lightbox dsm_button_0_tb_header"
+              style="float: right; margin-left: auto; margin-top: 1%"
               >Login</a
             >
           </div>
@@ -347,10 +347,9 @@
                               decoding="async"
                               width="690"
                               height="800"
-                              :src="'https://hello.everhost.io/wp-content/uploads/2023/07/Welcome-To-Play-del-Carmen.png'"
+                              src="/assets/images/Welcome-To-Play-del-Carmen.png"
                               alt="everhost"
                               title="Welcome To Play del Carmen"
-                              :srcset="'https://hello.everhost.io/wp-content/uploads/2023/07/Welcome-To-Play-del-Carmen.png 690w, https://hello.everhost.io/wp-content/uploads/2023/07/Welcome-To-Play-del-Carmen-480x557.png 480w'"
                               sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
                               class="wp-image-1409"
                             />
@@ -426,10 +425,10 @@
                                   decoding="async"
                                   width="87"
                                   height="88"
-                                  src="https://hello.everhost.io/wp-content/uploads/2022/05/Group-1777.png"
+                                  src="/assets/images/send.png"
                                   alt="guide everhost"
                                   class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-35"
-                                  data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Group-1777.png"
+                                  data-lazy-src="/assets/images/send.png777.png"
                                 />
                               </span>
                             </div>
@@ -462,18 +461,11 @@
                                   decoding="async"
                                   width="80"
                                   height="80"
-                                  src="https://hello.everhost.io/wp-content/uploads/2022/05/Group-1776.png"
+                                  src="/assets/images/ellipsis.png"
                                   alt="guide everhost"
                                   class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-37"
-                                  data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Group-1776.png" /><noscript
-                                  ><img
-                                    decoding="async"
-                                    width="80"
-                                    height="80"
-                                    src="https://hello.everhost.io/wp-content/uploads/2022/05/Group-1776.png"
-                                    alt="guide everhost"
-                                    class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-37" /></noscript
-                              ></span>
+                                  data-lazy-src="/assets/images/ellipsis.png"
+                              /></span>
                             </div>
                             <div class="et_pb_blurb_container">
                               <h4 class="et_pb_module_header">
@@ -504,27 +496,14 @@
                                 class="et_pb_image_wrap et_pb_only_image_mode_wrap"
                                 ><img
                                   decoding="async"
-                                  width="160"
-                                  height="160"
-                                  src="https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x.png"
+                                  width="80"
+                                  height="80"
+                                  src="/assets/images/star.png"
                                   alt="reviews everhost"
-                                  data-lazy-srcset="https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x.png 160w, https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x-150x150.png 150w"
                                   data-lazy-sizes="(max-width: 160px) 100vw, 160px"
                                   class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-546"
-                                  data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x.png" /><noscript
-                                  ><img
-                                    decoding="async"
-                                    width="160"
-                                    height="160"
-                                    src="https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x.png"
-                                    alt="reviews everhost"
-                                    srcset="
-                                      https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x.png         160w,
-                                      https://hello.everhost.io/wp-content/uploads/2022/06/5-Star@2x-150x150.png 150w
-                                    "
-                                    sizes="(max-width: 160px) 100vw, 160px"
-                                    class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-546" /></noscript
-                              ></span>
+                                  data-lazy-src="/assets/images/star.png"
+                              /></span>
                             </div>
                             <div class="et_pb_blurb_container">
                               <h4 class="et_pb_module_header">
@@ -654,27 +633,13 @@
                               decoding="async"
                               width="690"
                               height="800"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20690%20800'%3E%3C/svg%3E"
+                              src="/assets/images/Guest-Welcome-Book.png"
                               alt="mobile everhost"
                               title="Guest Welcome Book"
-                              data-lazy-srcset="https://hello.everhost.io/wp-content/uploads/2023/07/Guest-Welcome-Book.png 690w, https://hello.everhost.io/wp-content/uploads/2023/07/Guest-Welcome-Book-480x557.png 480w"
                               data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
                               class="wp-image-1405"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2023/07/Guest-Welcome-Book.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="690"
-                                height="800"
-                                src="https://hello.everhost.io/wp-content/uploads/2023/07/Guest-Welcome-Book.png"
-                                alt="mobile everhost"
-                                title="Guest Welcome Book"
-                                srcset="
-                                  https://hello.everhost.io/wp-content/uploads/2023/07/Guest-Welcome-Book.png         690w,
-                                  https://hello.everhost.io/wp-content/uploads/2023/07/Guest-Welcome-Book-480x557.png 480w
-                                "
-                                sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
-                                class="wp-image-1405" /></noscript
-                          ></span>
+                              data-lazy-src="/assets/images/Guest-Welcome-Book.png"
+                          /></span>
                         </div>
                       </div>
                     </div>
@@ -1624,7 +1589,7 @@ export default {
   background: linear-gradient(90deg, #6c4ad3 0%, #893393 100%);
   color: #fff !important;
   border: none;
-  border-radius: 32px;
+  border-radius: 5px;
   padding: 0.75em 2em;
   font-weight: 600;
   font-size: 1.1em;
