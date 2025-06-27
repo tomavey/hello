@@ -282,7 +282,7 @@
                         <div
                           class="et_pb_module et_pb_text et_pb_text_3 et_pb_text_align_center et_pb_bg_layout_light"
                         >
-                          <div class="et_pb_text_inner">
+                          <div class="et_pb_text_inner eh-text-bold">
                             <p>5-Star Stays,<br />Start With Everhost!</p>
                           </div>
                         </div>
@@ -404,27 +404,16 @@
                               decoding="async"
                               width="690"
                               height="800"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20690%20800'%3E%3C/svg%3E"
+                              src="/images/Airbnb-Welcome-Book.png"
                               alt="everhost"
                               title="Airbnb Welcome Book Template"
-                              data-lazy-srcset="https://hello.everhost.io/wp-content/uploads/2023/07/Airbnb-Welcome-Book-Template.png 690w, https://hello.everhost.io/wp-content/uploads/2023/07/Airbnb-Welcome-Book-Template-480x557.png 480w"
+                              data-lazy-srcset="/images/Airbnb-Welcome-Book.png.png"
                               data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
                               class="wp-image-1397"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2023/07/Airbnb-Welcome-Book-Template.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="690"
-                                height="800"
-                                src="https://hello.everhost.io/wp-content/uploads/2023/07/Airbnb-Welcome-Book-Template.png"
-                                alt="everhost"
-                                title="Airbnb Welcome Book Template"
-                                srcset="
-                                  https://hello.everhost.io/wp-content/uploads/2023/07/Airbnb-Welcome-Book-Template.png         690w,
-                                  https://hello.everhost.io/wp-content/uploads/2023/07/Airbnb-Welcome-Book-Template-480x557.png 480w
-                                "
-                                sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
-                                class="wp-image-1397" /></noscript
-                          ></span>
+                              data-lazy-src="/images/Airbnb-Welcome-Book.png"
+                            />
+                            ></span
+                          >
                         </div>
                       </div>
                       <div
@@ -501,6 +490,107 @@
                       </div>
                     </div>
                   </div>
+                  <div class="et_pb_section et_pb_section_3 et_section_regular">
+                    <div class="et_pb_row et_pb_row_4">
+                      <div
+                        class="et_pb_column et_pb_column_1_2 et_pb_column_7 et_pb_css_mix_blend_mode_passthrough"
+                      >
+                        <div
+                          class="et_pb_module et_pb_text et_pb_text_4 et_pb_text_align_left et_pb_text_align_center-phone et_pb_bg_layout_light"
+                        >
+                          <div class="et_pb_text_inner">
+                            <p>Your guests, your data</p>
+                          </div>
+                        </div>
+                        <div
+                          class="et_pb_module dsm_icon_list dsm_icon_list_0 multimediaSecIcon"
+                        >
+                          <div class="et_pb_module_inner">
+                            <ul
+                              class="dsm_icon_list_items dsm_icon_list_ltr_direction dsm_icon_list_layout_vertical"
+                            >
+                              <li
+                                class="dsm_icon_list_child dsm_icon_list_child_0"
+                              >
+                                <span class="dsm_icon_list_wrapper"
+                                  ><span class="dsm_icon_list_icon">
+                                    <list-checkmark /> </span></span
+                                ><span class="dsm_icon_list_text"
+                                  >Auto collect and securely store guest
+                                  info.</span
+                                >
+                              </li>
+                              <li
+                                class="dsm_icon_list_child dsm_icon_list_child_1"
+                              >
+                                <span class="dsm_icon_list_wrapper"
+                                  ><span class="dsm_icon_list_icon">
+                                    <list-checkmark /> </span></span
+                                ><span class="dsm_icon_list_text"
+                                  >Turn on / off guest info. form</span
+                                >
+                              </li>
+                              <li
+                                class="dsm_icon_list_child dsm_icon_list_child_2"
+                              >
+                                <span class="dsm_icon_list_wrapper">
+                                  <list-checkmark />
+                                </span>
+                                <span class="dsm_icon_list_text"
+                                  >Download and use in your favorite email or
+                                  text / sms marketing platform</span
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div
+                          class="et_pb_module dsm_button dsm_button_1 et_pb_bg_layout_light"
+                        >
+                          <div class="et_pb_module_inner">
+                            <div
+                              class="et_pb_button_module_wrappers dsm_button_2_wrapper et_pb_button_alignment_left et_pb_button_alignment_tablet_left et_pb_button_alignment_phone_center et_pb_module"
+                            >
+                              <a
+                                class="et_pb_button et_pb_button_one et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
+                                href="https://manage.everhost.io/signup"
+                                target="_blank"
+                                data-icon="&#x35;"
+                                data-dsm-lightbox-id="dsm_button_one_lightbox dsm_button_1"
+                                >Get Started</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="et_pb_column et_pb_column_1_2 et_pb_column_8 et_pb_css_mix_blend_mode_passthrough et-last-child"
+                      >
+                        <div
+                          class="et_pb_module et_pb_image et_pb_image_1 et_animated et-waypoint"
+                        >
+                          <span class="et_pb_image_wrap"
+                            ><img
+                              decoding="async"
+                              width="690"
+                              height="800"
+                              src="/images/Airbnb-Welcome-Book.png"
+                              alt="mobile everhost"
+                              title="Guest Welcome Book"
+                              data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
+                              class="wp-image-1405"
+                              data-lazy-src="/images/Guest-Welcome-Book.png"
+                          /></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="themes">
+                    <div class="eh-text-bold eh-text-center">
+                      16+ themes available
+                    </div>
+                    <Carousel :slides="themes" />
+                  </div>
                   <div class="et_pb_section et_pb_section_6 et_section_regular">
                     <div class="et_pb_row et_pb_row_11 et_animated">
                       <div
@@ -509,7 +599,9 @@
                         <div
                           class="et_pb_module et_pb_text et_pb_text_10 et_pb_text_align_center et_pb_bg_layout_light"
                         >
-                          <div class="et_pb_text_inner">
+                          <div
+                            class="et_pb_text_inner eh-text-bold eh-text-center"
+                          >
                             <p>Works Everywhere</p>
                           </div>
                         </div>
@@ -526,342 +618,20 @@
                       </div>
                     </div>
                     <div class="et_pb_row et_pb_row_12">
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_18 et_pb_css_mix_blend_mode_passthrough"
-                      >
+                      <div class="platforms-grid">
                         <div
-                          class="et_pb_module et_pb_image et_pb_image_5 et_animated et-waypoint"
+                          v-for="(platform, index) in platforms"
+                          :key="index"
+                          class="platform-item"
                         >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="113"
-                              height="113"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20113%20113'%3E%3C/svg%3E"
-                              alt="Vrbo"
-                              title="Vrbo"
-                              class="wp-image-120"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/vrbo.jpg" /><noscript
-                              ><img
-                                decoding="async"
-                                width="113"
-                                height="113"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/vrbo.jpg"
-                                alt="Vrbo"
-                                title="Vrbo"
-                                class="wp-image-120" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_19 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_6 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="89"
-                              height="90"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2089%2090'%3E%3C/svg%3E"
-                              alt=""
-                              title="Airbnb_100x100"
-                              class="wp-image-60"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Airbnb_100x100.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="89"
-                                height="90"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Airbnb_100x100.png"
-                                alt=""
-                                title="Airbnb_100x100"
-                                class="wp-image-60" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_20 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_7 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="163"
-                              height="95"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20163%2095'%3E%3C/svg%3E"
-                              alt=""
-                              title="smartbnb-dark-logo"
-                              class="wp-image-55"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/smartbnb-dark-logo.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="163"
-                                height="95"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/smartbnb-dark-logo.png"
-                                alt=""
-                                title="smartbnb-dark-logo"
-                                class="wp-image-55" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_21 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_8 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="111"
-                              height="89"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20111%2089'%3E%3C/svg%3E"
-                              alt=""
-                              title="Booking Logo_172x150"
-                              class="wp-image-59"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Booking-Logo_172x150.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="111"
-                                height="89"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Booking-Logo_172x150.png"
-                                alt=""
-                                title="Booking Logo_172x150"
-                                class="wp-image-59" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_22 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_9 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="310"
-                              height="163"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20310%20163'%3E%3C/svg%3E"
-                              alt=""
-                              title="download-5"
-                              data-lazy-srcset="https://hello.everhost.io/wp-content/uploads/2022/05/download-5.png 310w, https://hello.everhost.io/wp-content/uploads/2022/05/download-5-300x158.png 300w"
-                              data-lazy-sizes="(max-width: 310px) 100vw, 310px"
-                              class="wp-image-136"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/download-5.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="310"
-                                height="163"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/download-5.png"
-                                alt=""
-                                title="download-5"
-                                srcset="
-                                  https://hello.everhost.io/wp-content/uploads/2022/05/download-5.png         310w,
-                                  https://hello.everhost.io/wp-content/uploads/2022/05/download-5-300x158.png 300w
-                                "
-                                sizes="(max-width: 310px) 100vw, 310px"
-                                class="wp-image-136" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_23 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_10 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="89"
-                              height="89"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2089%2089'%3E%3C/svg%3E"
-                              alt=""
-                              title="Uplisting Logo_100x100 (1)"
-                              class="wp-image-56"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Uplisting-Logo_100x100-1.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="89"
-                                height="89"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Uplisting-Logo_100x100-1.png"
-                                alt=""
-                                title="Uplisting Logo_100x100 (1)"
-                                class="wp-image-56" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_24 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_11 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="100"
-                              height="100"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3C/svg%3E"
-                              alt=""
-                              title="Host Away Logo_100x100"
-                              class="wp-image-128"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Host-Away-Logo_100x100.jpg" /><noscript
-                              ><img
-                                decoding="async"
-                                width="100"
-                                height="100"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Host-Away-Logo_100x100.jpg"
-                                alt=""
-                                title="Host Away Logo_100x100"
-                                class="wp-image-128" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_25 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_12 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="300"
-                              height="100"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20100'%3E%3C/svg%3E"
-                              alt=""
-                              title="Vacasa 300x100"
-                              class="wp-image-132"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Vacasa-300x100-1.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="300"
-                                height="100"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Vacasa-300x100-1.png"
-                                alt=""
-                                title="Vacasa 300x100"
-                                class="wp-image-132" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_26 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_13 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="89"
-                              height="90"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2089%2090'%3E%3C/svg%3E"
-                              alt=""
-                              title="Guesty_Logo_100x100"
-                              class="wp-image-54"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Guesty_Logo_100x100.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="89"
-                                height="90"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Guesty_Logo_100x100.png"
-                                alt=""
-                                title="Guesty_Logo_100x100"
-                                class="wp-image-54" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_27 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_14 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="318"
-                              height="159"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20318%20159'%3E%3C/svg%3E"
-                              alt=""
-                              title="download-4"
-                              data-lazy-srcset="https://hello.everhost.io/wp-content/uploads/2022/05/download-4.png 318w, https://hello.everhost.io/wp-content/uploads/2022/05/download-4-300x150.png 300w"
-                              data-lazy-sizes="(max-width: 318px) 100vw, 318px"
-                              class="wp-image-135"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/download-4.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="318"
-                                height="159"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/download-4.png"
-                                alt=""
-                                title="download-4"
-                                srcset="
-                                  https://hello.everhost.io/wp-content/uploads/2022/05/download-4.png         318w,
-                                  https://hello.everhost.io/wp-content/uploads/2022/05/download-4-300x150.png 300w
-                                "
-                                sizes="(max-width: 318px) 100vw, 318px"
-                                class="wp-image-135" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_28 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_15 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="243"
-                              height="87"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20243%2087'%3E%3C/svg%3E"
-                              alt=""
-                              title="Expedia"
-                              class="wp-image-133"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/Expedia.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="243"
-                                height="87"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/Expedia.png"
-                                alt=""
-                                title="Expedia"
-                                class="wp-image-133" /></noscript
-                          ></span>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_6 et_pb_column_29 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_16 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="89"
-                              height="89"
-                              src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2089%2089'%3E%3C/svg%3E"
-                              alt=""
-                              title="FlipKey_100x100"
-                              class="wp-image-57"
-                              data-lazy-src="https://hello.everhost.io/wp-content/uploads/2022/05/FlipKey_100x100.png" /><noscript
-                              ><img
-                                decoding="async"
-                                width="89"
-                                height="89"
-                                src="https://hello.everhost.io/wp-content/uploads/2022/05/FlipKey_100x100.png"
-                                alt=""
-                                title="FlipKey_100x100"
-                                class="wp-image-57" /></noscript
-                          ></span>
+                          <img
+                            decoding="async"
+                            width="113"
+                            height="113"
+                            :src="platform.img"
+                            :alt="platform.title"
+                            :title="platform.title"
+                          />
                         </div>
                       </div>
                     </div>
@@ -877,7 +647,7 @@
                           class="et_pb_module et_pb_text et_pb_text_12 et_animated et_pb_text_align_center et_pb_bg_layout_light"
                         >
                           <div class="et_pb_text_inner">
-                            <p> Super Host Features</p>
+                            <p class="eh-text-bolder"> Super Host Features</p>
                           </div>
                         </div>
                       </div>
@@ -887,7 +657,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_31 et_pb_css_mix_blend_mode_passthrough"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_3 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_blurb_container">
@@ -895,7 +665,7 @@
                                 <span>Easy To Use</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   <span
                                     >Everhost is designed for non-technical
                                     users to easily create and manage.</span
@@ -910,7 +680,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_32 et_pb_css_mix_blend_mode_passthrough"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_4 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_4 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_blurb_container">
@@ -918,7 +688,7 @@
                                 <span>Quick Setup</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   <span
                                     >Start sending out your property&#8217;s
                                     welcome book in as little as 10
@@ -934,7 +704,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_33 et_pb_css_mix_blend_mode_passthrough et-last-child"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_5 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_5 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_blurb_container">
@@ -942,7 +712,7 @@
                                 <span>Message Templates</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   No more long message threads.  Keep it simple
                                   and add your digital welcome book link.
                                 </p>
@@ -957,7 +727,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_34 et_pb_css_mix_blend_mode_passthrough"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_6 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_6 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_blurb_container">
@@ -965,7 +735,7 @@
                                 <span>Nearby Guide</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   Effortlessly provide highly rated restaurants
                                   and places to visit to your guests.
                                 </p>
@@ -978,7 +748,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_35 et_pb_css_mix_blend_mode_passthrough"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_7 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_7 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_blurb_container">
@@ -986,7 +756,7 @@
                                 <span>Pro Tools</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   Upgrade to add your branding, upload custom
                                   themes, and create unlimited welcome books.
                                 </p>
@@ -999,7 +769,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_36 et_pb_css_mix_blend_mode_passthrough et-last-child"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_8 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_8 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_blurb_container">
@@ -1007,7 +777,7 @@
                                 <span>Free, Forever</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   <span
                                     >Build digital welcome books for up to 10
                                     properties, at no cost.</span
@@ -1021,178 +791,7 @@
                     </div>
                   </div>
                   <div class="et_pb_section et_pb_section_8 et_section_regular">
-                    <div class="et_pb_row et_pb_row_18">
-                      <div
-                        class="et_pb_column et_pb_column_4_4 et_pb_column_37 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
-                        <div
-                          class="et_pb_module et_pb_accordion et_pb_accordion_0 collapseSection"
-                        >
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_0 et_pb_toggle_open"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              Will my guest need to download an app?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                No. Simply send a link to your guests after they
-                                book.
-                              </p>
-                            </div>
-                          </div>
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_1 et_pb_toggle_close"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              I am not technical. Will I be able to set this up?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ">Absolutely.</span
-                                ><span class="JsGRdQ white-space-prewrap">
-                                </span
-                                ><span class="JsGRdQ"
-                                  >We built our digital welcome books to be
-                                  super easy to use.</span
-                                ><span class="JsGRdQ white-space-prewrap">
-                                </span
-                                ><span class="JsGRdQ"
-                                  >If you can use Microsoft Word, you&#8217;ll
-                                  be fine.</span
-                                >
-                              </p>
-                            </div>
-                          </div>
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_2 et_pb_toggle_close"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              What sections can I customize?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ"
-                                  >Along with images, videos, and links users
-                                  can manage pages in Property Info, Area Guide,
-                                  Contact Us, and Book Again sections.</span
-                                >
-                              </p>
-                            </div>
-                          </div>
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_3 et_pb_toggle_close"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              Can I use this with Airbnb and VRBO?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ">Yes!</span
-                                ><span class="JsGRdQ white-space-prewrap">
-                                </span
-                                ><span class="JsGRdQ"
-                                  >And on any other platform such as
-                                  Booking.com, Hospitable, Guesty, Vacasa, and
-                                  many more.</span
-                                ><span class="JsGRdQ white-space-prewrap">
-                                </span
-                                ><span class="JsGRdQ"
-                                  >Simply add a link to your guest
-                                  messages.</span
-                                >
-                              </p>
-                            </div>
-                          </div>
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_4 et_pb_toggle_close"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              How much time does it take to create a welcome
-                              book?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ"
-                                  >Each digital guide comes with 16+ themes and
-                                  content templates that can be quickly
-                                  customized.</span
-                                ><span class="JsGRdQ white-space-prewrap">
-                                </span
-                                ><span class="JsGRdQ"
-                                  >A welcome book can be completed within 10
-                                  minutes.  But a fully customized, 5-star
-                                  digital property guide will take at minimum
-                                  1-2 hours.</span
-                                >
-                              </p>
-                              <p style="font-weight: 400">
-                                Busy and want to save some time? 
-                                <a
-                                  href="https://meetings.hubspot.com/hello310/everhost-ask-us-anything"
-                                  >Schedule A Meeting</a
-                                >
-                                to discuss our Done-4-You service.<span
-                                  class="JsGRdQ"
-                                ></span>
-                              </p>
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ"></span>
-                              </p>
-                            </div>
-                          </div>
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_5 et_pb_toggle_close"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              Is there a cost to use Everhost?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ"
-                                  >There is no cost for an Everhost account that
-                                  allows for the creation of up to 10 digital
-                                  welcome books.</span
-                                >
-                              </p>
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ"
-                                  >We do offer a premium account where you can
-                                  create unlimited welcome books, upload custom
-                                  themes, remove our branding and replace with
-                                  your information.  </span
-                                ><span
-                                  class="JsGRdQ white-space-prewrap"
-                                ></span>
-                              </p>
-                            </div>
-                          </div>
-                          <div
-                            class="et_pb_toggle et_pb_module et_pb_accordion_item et_pb_accordion_item_6 et_pb_toggle_close"
-                          >
-                            <h5 class="et_pb_toggle_title">
-                              What if I have more than 10 properties?
-                            </h5>
-                            <div class="et_pb_toggle_content clearfix">
-                              <p style="font-weight: 400">
-                                <span class="JsGRdQ"
-                                  >Great! Currently we offer an Unlimited Plan
-                                  for only $279 per year.  If you would like to
-                                  know more,
-                                  <a
-                                    href="https://meetings.hubspot.com/hello310/everhost-ask-us-anything"
-                                    >Schedule A Meeting</a
-                                  >
-                                  with us to discuss how you can leverage
-                                  Everhost to create happy guests and grow your
-                                  business.</span
-                                >
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <Accordian />
                   </div>
                   <div class="et_pb_row et_pb_row_19">
                     <div
@@ -1295,9 +894,99 @@ import { ref, computed } from "vue";
 
 const isModalOpen = ref(false);
 const year = computed(() => new Date().getFullYear());
+
+const themes = ref([
+  {
+    img: "/images/5.png",
+  },
+  {
+    img: "/images/6.png",
+  },
+  {
+    img: "/images/7.png",
+  },
+  {
+    img: "/images/8.png",
+  },
+  {
+    img: "/images/9.png",
+  },
+  {
+    img: "/images/10.png",
+  },
+]);
+
+const platforms = ref([
+  {
+    img: "/images/Airbnb.png",
+    title: "Airbnb",
+  },
+  {
+    img: "/images/vrbo.jpg",
+    title: "Vrbo",
+  },
+  {
+    img: "/images/Booking.png",
+    title: "Booking.com",
+  },
+  {
+    img: "/images/Expedia.png",
+    title: "Expedia",
+  },
+  {
+    img: "/images/FlipKey.png",
+    title: "Flipkey",
+  },
+  {
+    img: "/images/Booking.png",
+    title: "Booking",
+  },
+  {
+    img: "/images/Host-Away-Logo.jpg",
+    title: "Host Away",
+  },
+  {
+    img: "/images/Guesty.png",
+    title: "Guesty",
+  },
+  {
+    img: "/images/Vacasa.png",
+    title: "Vacasa",
+  },
+]);
 </script>
 
 <style scoped>
+.eh-text-bold {
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+.eh-text-bolder {
+  font-weight: bolder;
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+.eh-text-center {
+  text-align: center;
+}
+
+.platforms-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.platforms-grid img {
+  width: 113px;
+  height: 113px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(140, 76, 219, 0.1);
+}
+
 #page-container {
   background: #fff;
   min-height: 100vh;

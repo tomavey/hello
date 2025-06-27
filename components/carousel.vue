@@ -40,7 +40,7 @@
             <img
               decoding="async"
               :src="slide.img"
-              width="75px"
+              :width="!slide.text ? '100%' : '75px'"
               alt=""
               :data-lazy-srcset="slide.imgSrcset"
               :data-lazy-sizes="slide.imgSizes"
@@ -62,6 +62,46 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
+const props = defineProps({
+  slides: {
+    type: Array,
+    default: [
+      {
+        img: "/images/Thiago-Headshot.png",
+        imgSrcset: "",
+        imgSizes: "",
+        text: "This is the digital welcome book I have been waiting for! Quick to setup, easy to use, and my guests love using it!",
+        author: "Thiago Gemelli, Sao Paulo Brazil",
+        stars: 5,
+      },
+      {
+        img: "/images/KeYarra.png",
+        imgSrcset: "",
+        imgSizes: "",
+        text: "Our guests actually use our welcome book to plan their stay and while they are in town. Love the area guide section!",
+        author: "KeYarra Ali, Detroit Michigan",
+        stars: 5,
+      },
+      {
+        img: "/images/Dave-Homyak.png",
+        imgSrcset: "",
+        imgSizes: "",
+        text: "As a realtor and investor things can get really busy. Adding Everhost welcome books have saved my team so much time by not having to answer the same questions again and again.",
+        author: "Dave Homyak, Realtor",
+        stars: 4,
+      },
+      {
+        img: "/images/Evan-and-Orna_2-.png",
+        imgSrcset: "",
+        imgSizes: "",
+        text: "Love the option to add videos in the How-To section. This alone has been a game changer for our guest services and support.",
+        author: "Evan Feathers, Destin Florida",
+        stars: 3,
+      },
+    ],
+  },
+});
+
 let intervalId: number | undefined;
 
 onMounted(() => {
@@ -76,16 +116,7 @@ onUnmounted(() => {
   }
 });
 
-interface Slide {
-  img: string;
-  imgSrcset?: string;
-  imgSizes?: string;
-  text: string;
-  author: string;
-  stars: number;
-}
-
-const slides = ref<Slide[]>([
+const defaultSlides = ref([
   {
     img: "/images/Thiago-Headshot.png",
     imgSrcset: "",
