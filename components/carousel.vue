@@ -1,6 +1,31 @@
 <template>
   <div class="carousel">
     <div class="carousel-track">
+      <div
+        class="carousel-indicators"
+        style="
+          display: flex;
+          justify-content: center;
+          margin-top: 16px;
+          margin-bottom: 20px;
+        "
+      >
+        <span
+          v-for="(slide, idx) in slides"
+          :key="'indicator-' + idx"
+          :style="{
+            display: 'inline-block',
+            width: '10px',
+            height: '10px',
+            borderRadius: '50%',
+            background: idx === current ? '#333' : '#ccc',
+            margin: '0 4px',
+            cursor: 'pointer',
+            transition: 'background 0.2s',
+          }"
+          @click="current = idx"
+        ></span>
+      </div>
       <transition-group name="slide-fade" tag="div">
         <div
           v-for="(slide, idx) in slides"
@@ -24,7 +49,7 @@
             />
             <div class="dsm_card_carousel_child_description">
               <p>{{ slide.text }}</p>
-              <p>{{ slide.author }}</p>
+              <p style="margin: 4px 0; font-weight: bold">{{ slide.author }}</p>
               <p>★★★★★</p>
             </div>
           </div>
@@ -42,7 +67,7 @@ let intervalId: number | undefined;
 onMounted(() => {
   intervalId = window.setInterval(() => {
     next();
-  }, 3000);
+  }, 5000);
 });
 
 onUnmounted(() => {
@@ -62,7 +87,7 @@ interface Slide {
 
 const slides = ref<Slide[]>([
   {
-    img: new URL("/assets/images/Thiago-Headshot.png", import.meta.url).href,
+    img: "/images/Thiago-Headshot.png",
     imgSrcset: "",
     imgSizes: "",
     text: "This is the digital welcome book I have been waiting for! Quick to setup, easy to use, and my guests love using it!",
@@ -70,7 +95,7 @@ const slides = ref<Slide[]>([
     stars: 5,
   },
   {
-    img: new URL("/assets/images/KeYarra.png", import.meta.url).href,
+    img: "/images/KeYarra.png",
     imgSrcset: "",
     imgSizes: "",
     text: "Our guests actually use our welcome book to plan their stay and while they are in town. Love the area guide section!",
@@ -78,7 +103,7 @@ const slides = ref<Slide[]>([
     stars: 5,
   },
   {
-    img: new URL("/assets/images/Dave-Homyak.png", import.meta.url).href,
+    img: "/images/Dave-Homyak.png",
     imgSrcset: "",
     imgSizes: "",
     text: "As a realtor and investor things can get really busy. Adding Everhost welcome books have saved my team so much time by not having to answer the same questions again and again.",
@@ -86,7 +111,7 @@ const slides = ref<Slide[]>([
     stars: 4,
   },
   {
-    img: new URL("/assets/images/Evan-and-Orna_2-.png", import.meta.url).href,
+    img: "/images/Evan-and-Orna_2-.png",
     imgSrcset: "",
     imgSizes: "",
     text: "Love the option to add videos in the How-To section. This alone has been a game changer for our guest services and support.",
@@ -133,5 +158,9 @@ function next() {
 .carousel-track {
   position: relative;
   min-height: 220px; /* adjust as needed */
+}
+.dsm_card_carousel_child_description {
+  margin-left: 16px;
+  flex: 1;
 }
 </style>

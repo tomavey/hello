@@ -12,7 +12,7 @@
             "
           >
             <img
-              src="/assets/images/everhost.png"
+              src="/images/everhost.png"
               alt="Everhost Logo"
               style="height: 48px; width: auto"
             />
@@ -91,6 +91,7 @@
                                 href="#heroVid"
                                 data-icon="&#xf144;"
                                 data-dsm-lightbox-id="dsm_button_two_lightbox dsm_button_0"
+                                @click.prevent="isModalOpen = true"
                                 >Watch video</a
                               >
                             </div>
@@ -110,7 +111,7 @@
                               decoding="async"
                               width="690"
                               height="800"
-                              src="/assets/images/Welcome-To-Play-del-Carmen.png"
+                              src="/images/Welcome-To-Play-del-Carmen.png"
                               alt="everhost"
                               title="Welcome To Play del Carmen"
                               sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
@@ -121,63 +122,51 @@
                       </div>
                     </div>
                   </div>
-                  <div
-                    id="heroVid"
-                    class="et_pb_section et_pb_section_1 popup et_pb_with_background et_section_regular"
-                  >
-                    <div class="et_pb_row et_pb_row_1">
-                      <div
-                        class="et_pb_column et_pb_column_4_4 et_pb_column_2 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
+                  <modal v-model="isModalOpen">
+                    <div
+                      id="heroVid"
+                      class="et_pb_section et_pb_section_1 popup et_pb_with_background et_section_regular"
+                    >
+                      <div class="et_pb_row et_pb_row_1">
                         <div
-                          class="et_pb_module et_pb_text et_pb_text_2 et_animated et_pb_text_align_center et_pb_bg_layout_light"
+                          class="et_pb_column et_pb_column_4_4 et_pb_column_2 et_pb_css_mix_blend_mode_passthrough et-last-child"
                         >
-                          <div class="et_pb_text_inner">
-                            <p>
-                              With Everhost you can create a welcome book in
-                              less than 10 MINUTES!
-                            </p>
+                          <div
+                            class="et_pb_module et_pb_text et_pb_text_2 et_animated et_pb_text_align_center et_pb_bg_layout_light"
+                          >
+                            <div class="et_pb_text_inner">
+                              <p>
+                                With Everhost you can create a welcome book in
+                                less than 10 MINUTES!
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                        <div class="et_pb_module et_pb_video et_pb_video_0">
-                          <div class="et_pb_video_box">
-                            <iframe
-                              loading="lazy"
-                              title="Airbnb guest welcome book"
-                              width="1080"
-                              height="608"
-                              src="about:blank"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                              referrerpolicy="strict-origin-when-cross-origin"
-                              allowfullscreen
-                              data-rocket-lazyload="fitvidscompatible"
-                              data-lazy-src="https://www.youtube.com/embed/1Iwa79l3mZI?feature=oembed"
-                            ></iframe
-                            ><noscript
-                              ><iframe
-                                title="Airbnb guest welcome book"
-                                width="1080"
-                                height="608"
-                                src="https://www.youtube.com/embed/1Iwa79l3mZI?feature=oembed"
+                          <div class="et_pb_module et_pb_video et_pb_video_0">
+                            <div class="et_pb_video_box">
+                              <iframe
+                                width="100%"
+                                height="400"
+                                src="https://www.youtube.com/embed/1Iwa79l3mZI"
+                                title="Everhost Demo"
+                                frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin"
                                 allowfullscreen
-                              ></iframe
-                            ></noscript>
+                              ></iframe>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </modal>
                   <div
                     class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular"
                   >
                     <div class="et_pb_row et_pb_row_2">
                       <div
-                        class="et_pb_column et_pb_column_1_3 et_pb_column_3 et_pb_css_mix_blend_mode_passthrough"
+                        class="et_pb_column et_pb_column_1_3 et_pb_column_3 et_pb_css_mix_blend_mode_passthrough et_pb_with_background"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_main_blurb_image">
@@ -187,10 +176,10 @@
                                   decoding="async"
                                   width="87"
                                   height="88"
-                                  src="/assets/images/send.png"
+                                  src="/images/send.png"
                                   alt="guide everhost"
                                   class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-35"
-                                  data-lazy-src="/assets/images/send.png777.png"
+                                  data-lazy-src="/images/send.png777.png"
                                 />
                               </span>
                             </div>
@@ -199,7 +188,7 @@
                                 <span>Empower Guests</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   House rules, how-to videos, customizable area
                                   guide to help your guests plan their trip and
                                   enjoy their stay.
@@ -213,7 +202,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_4 et_pb_css_mix_blend_mode_passthrough"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_1 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_main_blurb_image">
@@ -223,10 +212,10 @@
                                   decoding="async"
                                   width="80"
                                   height="80"
-                                  src="/assets/images/ellipsis.png"
+                                  src="/images/ellipsis.png"
                                   alt="guide everhost"
                                   class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-37"
-                                  data-lazy-src="/assets/images/ellipsis.png"
+                                  data-lazy-src="/images/ellipsis.png"
                               /></span>
                             </div>
                             <div class="et_pb_blurb_container">
@@ -235,7 +224,7 @@
                               </h4>
                               <div class="et_pb_blurb_description">
                                 <p>
-                                  <span
+                                  <span style="color: white"
                                     >Reduce or eliminate the back and forth
                                     communication with guests. Provide answers
                                     all in one place.</span
@@ -250,7 +239,7 @@
                         class="et_pb_column et_pb_column_1_3 et_pb_column_5 et_pb_css_mix_blend_mode_passthrough et-last-child"
                       >
                         <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_2 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light"
+                          class="et_pb_module et_pb_blurb et_pb_blurb_2 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
                         >
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_main_blurb_image">
@@ -260,11 +249,11 @@
                                   decoding="async"
                                   width="80"
                                   height="80"
-                                  src="/assets/images/star.png"
+                                  src="/images/star.png"
                                   alt="reviews everhost"
                                   data-lazy-sizes="(max-width: 160px) 100vw, 160px"
                                   class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-546"
-                                  data-lazy-src="/assets/images/star.png"
+                                  data-lazy-src="/images/star.png"
                               /></span>
                             </div>
                             <div class="et_pb_blurb_container">
@@ -272,7 +261,7 @@
                                 <span>More 5-Stars</span>
                               </h4>
                               <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400">
+                                <p style="font-weight: 400; color: white">
                                   Today&#8217;s guests seek that
                                   &#8220;wow&#8221; experience.  Immediately
                                   impress your guests and help them stay like a
@@ -321,9 +310,8 @@
                                 class="dsm_icon_list_child dsm_icon_list_child_0"
                               >
                                 <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
+                                  ><span class="dsm_icon_list_icon">
+                                    <list-checkmark /> </span></span
                                 ><span class="dsm_icon_list_text"
                                   >No more long message threads</span
                                 >
@@ -332,9 +320,8 @@
                                 class="dsm_icon_list_child dsm_icon_list_child_1"
                               >
                                 <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
+                                  ><span class="dsm_icon_list_icon">
+                                    <list-checkmark /> </span></span
                                 ><span class="dsm_icon_list_text"
                                   >Include a convenient FAQ section</span
                                 >
@@ -342,11 +329,10 @@
                               <li
                                 class="dsm_icon_list_child dsm_icon_list_child_2"
                               >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
-                                ><span class="dsm_icon_list_text"
+                                <span class="dsm_icon_list_wrapper">
+                                  <list-checkmark />
+                                </span>
+                                <span class="dsm_icon_list_text"
                                   >Add explainer and how-to videos</span
                                 >
                               </li>
@@ -354,9 +340,8 @@
                                 class="dsm_icon_list_child dsm_icon_list_child_3"
                               >
                                 <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
+                                  ><span class="dsm_icon_list_icon">
+                                    <list-checkmark /> </span></span
                                 ><span class="dsm_icon_list_text"
                                   >All your property information in one
                                   place</span
@@ -395,12 +380,12 @@
                               decoding="async"
                               width="690"
                               height="800"
-                              src="/assets/images/Guest-Welcome-Book.png"
+                              src="/images/Guest-Welcome-Book.png"
                               alt="mobile everhost"
                               title="Guest Welcome Book"
                               data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
                               class="wp-image-1405"
-                              data-lazy-src="/assets/images/Guest-Welcome-Book.png"
+                              data-lazy-src="/images/Guest-Welcome-Book.png"
                           /></span>
                         </div>
                       </div>
@@ -464,8 +449,7 @@
                               >
                                 <span class="dsm_icon_list_wrapper"
                                   ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
+                                    ><list-checkmark /> </span></span
                                 ><span class="dsm_icon_list_text"
                                   >Delight your guests by sharing your favorites
                                   places and avoiding the tourist traps.</span
@@ -476,8 +460,7 @@
                               >
                                 <span class="dsm_icon_list_wrapper"
                                   ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
+                                    ><list-checkmark /> </span></span
                                 ><span class="dsm_icon_list_text"
                                   >Property and area guide to help guests plan
                                   their stay</span
@@ -488,8 +471,7 @@
                               >
                                 <span class="dsm_icon_list_wrapper"
                                   ><span class="dsm_icon_list_icon"
-                                    >R</span
-                                  ></span
+                                    ><list-checkmark /> </span></span
                                 ><span class="dsm_icon_list_text"
                                   >Guest access to highly rated nearby
                                   restaurants, attractions, and events. Plus
@@ -1308,20 +1290,16 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "IndexPage",
-  computed: {
-    year() {
-      return new Date().getFullYear();
-    },
-  },
-};
+<script setup>
+import { ref, computed } from "vue";
+
+const isModalOpen = ref(false);
+const year = computed(() => new Date().getFullYear());
 </script>
 
 <style scoped>
 #page-container {
-  background: #f7f7fa;
+  background: #fff;
   min-height: 100vh;
   margin: 0 auto;
   max-width: calc(100% - 2rem);
@@ -1417,6 +1395,12 @@ export default {
 .et_pb_blurb_description p {
   font-size: 1em;
   color: #555;
+}
+
+.et_pb_with_background {
+  background-color: #1d3557;
+  padding: 20px;
+  color: white;
 }
 
 .dsm_card_carousel_child {
