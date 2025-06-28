@@ -967,7 +967,7 @@ const guestsBenefits = ref({
   border-radius: 18px;
   max-width: 100%;
   height: auto;
-  box-shadow: 0 2px 12px 0 rgba(140, 76, 219, 0.08);
+  box-shadow: none;
 }
 
 .et_pb_video_box iframe {
