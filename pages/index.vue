@@ -49,7 +49,7 @@
                               <span
                                 style="
                                   background: -webkit-linear-gradient(
-                                    180deg,
+                                    Benefit 180deg,
                                     #6c4ad3 0%,
                                     #893393 100%
                                   );
@@ -88,6 +88,7 @@
                                 >View Demo</a
                               ><a
                                 class="et_pb_button et_pb_button_two et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
+                                Benefit
                                 href="#heroVid"
                                 data-icon="&#xf144;"
                                 data-dsm-lightbox-id="dsm_button_two_lightbox dsm_button_0"
@@ -288,207 +289,10 @@
                         </div>
                       </div>
                     </div>
-                    <div class="et_pb_row et_pb_row_4">
-                      <div
-                        class="et_pb_column et_pb_column_1_2 et_pb_column_7 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_text et_pb_text_4 et_pb_text_align_left et_pb_text_align_center-phone et_pb_bg_layout_light"
-                        >
-                          <div class="et_pb_text_inner">
-                            <p>Eliminate the back and forth communication</p>
-                          </div>
-                        </div>
-                        <div
-                          class="et_pb_module dsm_icon_list dsm_icon_list_0 multimediaSecIcon"
-                        >
-                          <div class="et_pb_module_inner">
-                            <ul
-                              class="dsm_icon_list_items dsm_icon_list_ltr_direction dsm_icon_list_layout_vertical"
-                            >
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_0"
-                              >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon">
-                                    <list-checkmark /> </span></span
-                                ><span class="dsm_icon_list_text"
-                                  >No more long message threads</span
-                                >
-                              </li>
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_1"
-                              >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon">
-                                    <list-checkmark /> </span></span
-                                ><span class="dsm_icon_list_text"
-                                  >Include a convenient FAQ section</span
-                                >
-                              </li>
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_2"
-                              >
-                                <span class="dsm_icon_list_wrapper">
-                                  <list-checkmark />
-                                </span>
-                                <span class="dsm_icon_list_text"
-                                  >Add explainer and how-to videos</span
-                                >
-                              </li>
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_3"
-                              >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon">
-                                    <list-checkmark /> </span></span
-                                ><span class="dsm_icon_list_text"
-                                  >All your property information in one
-                                  place</span
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div
-                          class="et_pb_module dsm_button dsm_button_1 et_pb_bg_layout_light"
-                        >
-                          <div class="et_pb_module_inner">
-                            <div
-                              class="et_pb_button_module_wrappers dsm_button_2_wrapper et_pb_button_alignment_left et_pb_button_alignment_tablet_left et_pb_button_alignment_phone_center et_pb_module"
-                            >
-                              <a
-                                class="et_pb_button et_pb_button_one et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
-                                href="https://manage.everhost.io/signup"
-                                target="_blank"
-                                data-icon="&#x35;"
-                                data-dsm-lightbox-id="dsm_button_one_lightbox dsm_button_1"
-                                >Get Started</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_2 et_pb_column_8 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_1 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="690"
-                              height="800"
-                              src="/images/Guest-Welcome-Book.png"
-                              alt="mobile everhost"
-                              title="Guest Welcome Book"
-                              data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
-                              class="wp-image-1405"
-                              data-lazy-src="/images/Guest-Welcome-Book.png"
-                          /></span>
-                        </div>
-                      </div>
-                    </div>
+                    <Benefit :benefits="communicationBenefits" />
                   </div>
                   <div class="et_pb_section et_pb_section_4 et_section_regular">
-                    <div class="et_pb_row et_pb_row_5">
-                      <div
-                        class="et_pb_column et_pb_column_1_2 et_pb_column_9 et_pb_css_mix_blend_mode_passthrough"
-                      >
-                        <div
-                          class="et_pb_module et_pb_image et_pb_image_2 et_animated et-waypoint"
-                        >
-                          <span class="et_pb_image_wrap"
-                            ><img
-                              decoding="async"
-                              width="690"
-                              height="800"
-                              src="/images/Airbnb-Welcome-Book.png"
-                              alt="everhost"
-                              title="Airbnb Welcome Book Template"
-                              data-lazy-srcset="/images/Airbnb-Welcome-Book.png.png"
-                              data-lazy-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 690px, 100vw"
-                              class="wp-image-1397"
-                              data-lazy-src="/images/Airbnb-Welcome-Book.png"
-                            />
-                            ></span
-                          >
-                        </div>
-                      </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_2 et_pb_column_10 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
-                        <div
-                          class="et_pb_module et_pb_text et_pb_text_5 et_pb_text_align_left et_pb_text_align_center-phone et_pb_bg_layout_light"
-                        >
-                          <div class="et_pb_text_inner">
-                            <p>Help your guests stay like a local</p>
-                          </div>
-                        </div>
-                        <div
-                          class="et_pb_module dsm_icon_list dsm_icon_list_1 multimediaSecIcon"
-                        >
-                          <div class="et_pb_module_inner">
-                            <ul
-                              class="dsm_icon_list_items dsm_icon_list_ltr_direction dsm_icon_list_layout_vertical"
-                            >
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_4"
-                              >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    ><list-checkmark /> </span></span
-                                ><span class="dsm_icon_list_text"
-                                  >Delight your guests by sharing your favorites
-                                  places and avoiding the tourist traps.</span
-                                >
-                              </li>
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_5"
-                              >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    ><list-checkmark /> </span></span
-                                ><span class="dsm_icon_list_text"
-                                  >Property and area guide to help guests plan
-                                  their stay</span
-                                >
-                              </li>
-                              <li
-                                class="dsm_icon_list_child dsm_icon_list_child_6"
-                              >
-                                <span class="dsm_icon_list_wrapper"
-                                  ><span class="dsm_icon_list_icon"
-                                    ><list-checkmark /> </span></span
-                                ><span class="dsm_icon_list_text"
-                                  >Guest access to highly rated nearby
-                                  restaurants, attractions, and events. Plus
-                                  local deals and discounts.</span
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div
-                          class="et_pb_module dsm_button dsm_button_2 et_pb_bg_layout_light"
-                        >
-                          <div class="et_pb_module_inner">
-                            <div
-                              class="et_pb_button_module_wrappers dsm_button_3_wrapper et_pb_button_alignment_left et_pb_button_alignment_tablet_left et_pb_button_alignment_phone_center et_pb_module"
-                            >
-                              <a
-                                class="et_pb_button et_pb_button_one et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
-                                href="https://manage.everhost.io/signup"
-                                data-icon="&#x35;"
-                                data-dsm-lightbox-id="dsm_button_one_lightbox dsm_button_2"
-                                >Get Started</a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <Benefit :benefits="localBenefits" />
                   </div>
                   <div class="et_pb_section et_pb_section_3 et_section_regular">
                     <div class="et_pb_row et_pb_row_4">
@@ -891,6 +695,7 @@
 
 <script setup>
 import { ref, computed } from "vue";
+import Benefit from "~/components/benefit.vue";
 
 const isModalOpen = ref(false);
 const year = computed(() => new Date().getFullYear());
@@ -954,9 +759,43 @@ const platforms = ref([
     title: "Vacasa",
   },
 ]);
+
+const communicationBenefits = ref({
+  title: "Eliminate the back and forth communication",
+  descriptions: [
+    "No more long message threads.",
+    "Include a convenient FAQ section",
+    "Add explainer and how-to videos",
+    "All your property information in one place",
+  ],
+  image: "/images/Guest-Welcome-Book.png",
+  imagePlacement: "right",
+});
+
+const localBenefits = ref({
+  title: "Help your guests stay like a local",
+  descriptions: [
+    "Delight your guests by sharing your favorites places and avoiding the tourist traps.",
+    "Property and area guide to help guests plan their stay",
+    "Guest access to highly rated nearby restaurants, attractions, and events. Plus local deals and discounts.",
+  ],
+  image: "/images/Airbnb-Welcome-Book.png",
+  imagePlacement: "left",
+});
+
+const guestsBenefits = ref({
+  title: "Empower your guests",
+  descriptions: [
+    "House rules, how-to videos, customizable area guide to help your guests plan their trip and enjoy their stay.",
+    "Provide answers all in one place.",
+    "Reduce or eliminate the back and forth communication with guests.",
+  ],
+  image: "/images/Guest-Welcome-Book.png",
+  imagePlacement: "right",
+});
 </script>
 
-<style scoped>
+<style>
 .eh-text-bold {
   font-weight: bold;
   font-size: 1.5em;
@@ -1044,7 +883,7 @@ const platforms = ref([
   padding: 2rem 0;
   background: #fff;
   border-radius: 24px;
-  box-shadow: 0 2px 24px 0 rgba(140, 76, 219, 0.06);
+  box-shadow: none;
 }
 
 .et_pb_row {
@@ -1119,7 +958,7 @@ const platforms = ref([
 }
 
 .dsm_card_carousel_child_description p {
-  color: #f7b801;
+  color: black;
   font-size: 1.2em;
   margin: 0;
 }

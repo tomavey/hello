@@ -27,12 +27,7 @@
         ></span>
       </div>
       <transition-group name="slide-fade" tag="div">
-        <div
-          v-for="(slide, idx) in slides"
-          :key="idx"
-          class="dsm_card_carousel_child swiper-slide"
-          v-show="idx === current"
-        >
+        <div v-for="(slide, idx) in slides" :key="idx" v-show="idx === current">
           <div
             @click="next"
             style="flex: 1; display: flex; align-items: center"
@@ -47,7 +42,7 @@
               class="dsm_card_carousel_child_img swiper-lazy"
               :data-lazy-src="slide.img"
             />
-            <div class="dsm_card_carousel_child_description">
+            <div v-if="slide.text" class="dsm_card_carousel_child_description">
               <p>{{ slide.text }}</p>
               <p style="margin: 4px 0; font-weight: bold">{{ slide.author }}</p>
               <p>★★★★★</p>
