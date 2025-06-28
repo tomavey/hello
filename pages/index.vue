@@ -89,7 +89,6 @@
                               ><a
                                 class="et_pb_button et_pb_button_two et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
                                 Benefit
-                                href="#heroVid"
                                 data-icon="&#xf144;"
                                 data-dsm-lightbox-id="dsm_button_two_lightbox dsm_button_0"
                                 @click.prevent="isModalOpen = true"
@@ -642,6 +641,7 @@
         </div>
       </footer>
       <div
+        v-if="showTranslate"
         class="wpml-ls-statics-footer wpml-ls wpml-ls-legacy-list-horizontal"
       >
         <ul>
@@ -696,6 +696,7 @@
 <script setup>
 import { ref, computed } from "vue";
 import Benefit from "~/components/benefit.vue";
+const showTranslate = ref(false);
 
 const isModalOpen = ref(false);
 const year = computed(() => new Date().getFullYear());

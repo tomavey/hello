@@ -75,7 +75,7 @@ const faqItems = [
   },
   {
     question: "What if I have more than 10 properties?",
-    answer: `Great! Currently we offer an Unlimited Plan for only $279 per year. If you would like to know more, <a href="https://meetings.hubspot.com/hello310/everhost-ask-us-anything">Schedule A Meeting</a> with us to discuss how you can leverage Everhost to create happy guests and grow your business.`,
+    answer: `Great! Currently we offer an Unlimited Plan for only $279 per year. If you would like to know more, <a href="mailto:tom@everhost.com">Email Us</a> to discuss how you can leverage Everhost to create happy guests and grow your business.`,
   },
 ];
 </script>
