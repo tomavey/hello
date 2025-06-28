@@ -10,14 +10,12 @@
               </div>
             </slot>
             <button class="gb-modal-close" @click="close">
-              <img src="~/assets/icons/Close-red.svg" />
+              <img src="/icons/Close-red.svg" />
             </button>
           </div>
 
           <div class="gb-modal-content">
-            <slot>
-
-            </slot>
+            <slot> </slot>
           </div>
 
           <div class="gb-modal-footer">
@@ -33,18 +31,18 @@
 const props = defineProps({
   modelValue: {
     type: Boolean,
-    default: false
+    default: false,
   },
   modalClass: {
     type: [String, Object, Array],
-    default: ''
-  }
+    default: "",
+  },
 });
 
-const emit = defineEmits(['update:modelValue']);
+const emit = defineEmits(["update:modelValue"]);
 
 const close = () => {
-  emit('update:modelValue', false);
+  emit("update:modelValue", false);
 };
 </script>
 
@@ -86,23 +84,22 @@ const close = () => {
     font-family: Sailec, arial, sans-serif;
     color: #1d3557;
   }
-
 }
 
 .gb-modal-content {
   text-align: center;
-  
+
   .check {
     margin-bottom: 1rem;
     width: 48px;
     height: 48px;
   }
-  
+
   h6 {
     font-size: 1.25rem;
     margin: 0.5rem 0;
   }
-  
+
   p {
     color: rgba(0, 0, 0, 0.6);
   }
@@ -122,7 +119,7 @@ const close = () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   .close-img {
     width: 20px;
     height: 20px;

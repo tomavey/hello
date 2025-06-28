@@ -147,15 +147,6 @@ const defaultSlides = ref([
 ]);
 
 const current = ref(0);
-
-function prev() {
-  current.value =
-    (current.value - 1 + slides.value.length) % slides.value.length;
-}
-
-function next() {
-  current.value = (current.value + 1) % slides.value.length;
-}
 </script>
 
 <style>
