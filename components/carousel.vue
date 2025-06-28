@@ -111,6 +111,10 @@ onUnmounted(() => {
   }
 });
 
+function next() {
+  current.value = (current.value + 1) % props.slides.length;
+}
+
 const defaultSlides = ref([
   {
     img: "/images/Thiago-Headshot.png",
