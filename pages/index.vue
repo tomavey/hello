@@ -761,7 +761,6 @@ const dataBenefits = ref({
 
 .et_pb_section {
   margin-bottom: 2.5rem;
-  padding: 2rem 0;
   background: #fff;
   border-radius: 24px;
   box-shadow: none;
