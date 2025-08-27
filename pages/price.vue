@@ -5,22 +5,22 @@
       style="font-size: 24px; font-weight: bold; margin-bottom: 1rem"
     >
       We have an update regarding our pricing for
-      <strong>Everhost Welcome Guides</strong>.
+      <strong>Everhost Guidebooks</strong>.
     </p>
     <p>
-      <strong>On October 1, 2025</strong>, Everhost Welcome Guides will
-      transition to a paid subscription service. Currently, these guides are
-      free, and we're so glad they've been helpful for your hosting journey.
-      This change will allow us to continue providing you with the highest
-      quality resources and support.
+      <strong>On October 1, 2025</strong>, Everhost Guidebooks will transition
+      to a paid subscription service. Currently, these guides are free, and
+      we're so glad they've been helpful for your hosting journey. This change
+      will allow us to continue providing you with the highest quality resources
+      and support.
     </p>
     <h3>What’s Changing?</h3>
     <p>
-      Starting October 1, you can access our Welcome Guides with a subscription
-      of either <strong>$5 per month</strong> or <strong>$50 per year</strong>.
-      The subscription will include <strong>up to three welcome guides</strong>.
-      We want to give you a chance to experience the guides before you commit.
-      That's why your <strong>first 30 days will be completely free</strong>.
+      Starting October 1, you can access our Guidebooks with a subscription of
+      either <strong>$5 per month</strong> or <strong>$50 per year</strong>. The
+      subscription will include <strong>up to three Guidebooks</strong>. We want
+      to give you a chance to experience the guides before you commit. That's
+      why your <strong>first 30 days will be completely free</strong>.
     </p>
     <h3>What This Means for You</h3>
     <ul>

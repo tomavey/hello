@@ -71,11 +71,11 @@ const faqItems = [
   },
   {
     question: "Is there a cost to use Everhost?",
-    answer: `There is no cost for an Everhost account that allows for the creation of up to 10 digital welcome books.<br><br>We do offer a premium account where you can create unlimited welcome books, upload custom themes, remove our branding and replace with your information.`,
+    answer: `There is no cost for an Everhost account that allows for the creation of up to three Guidebooks for a 30-day free trial.<br><br>After the 30 days you can continue to provide your three guidebooks to guests for a small subsciption of $5/ month or $50 per year. If you would like to know more, <a href="mailto:tom@everhost.com">Email Us</a> to discuss how you can leverage Everhost to create happy guests and grow your business.,`,
   },
   {
-    question: "What if I have more than 10 properties?",
-    answer: `Great! Currently we offer an Unlimited Plan for only $279 per year. If you would like to know more, <a href="mailto:tom@everhost.com">Email Us</a> to discuss how you can leverage Everhost to create happy guests and grow your business.`,
+    question: "What is a premium account?",
+    answer: `We do offer a premium account where you can create unlimited Guidebooks, upload custom themes, remove our branding and replace with your information.If you would like to know more, <a href="mailto:tom@everhost.com">Email Us</a> to discuss how you can leverage Everhost to create happy guests and grow your business.`,
   },
 ];
 </script>
@@ -148,6 +148,16 @@ const faqItems = [
 .fade-enter-to,
 .fade-leave-from {
   opacity: 1;
+}
+a {
+  color: #6c4ad3;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #4b2ca0;
+  text-decoration: underline;
 }
 
 @keyframes fadeIn {
