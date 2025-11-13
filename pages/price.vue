@@ -8,7 +8,7 @@
       <strong>Everhost Guidebooks</strong>.
     </p>
     <p>
-      <strong>On October 1, 2025</strong>, Everhost Guidebooks will transition
+      <strong>On December 1, 2025</strong>, Everhost Guidebooks will transition
       to a paid subscription service. Currently, these guides are free, and
       we're so glad they've been helpful for your hosting journey. This change
       will allow us to continue providing you with the highest quality resources
@@ -16,7 +16,7 @@
     </p>
     <h3>What’s Changing?</h3>
     <p>
-      Starting October 1, you can access our Guidebooks with a subscription of
+      Starting December 1, you can access our Guidebooks with a subscription of
       either <strong>$5 per month</strong> or <strong>$50 per year</strong>. The
       subscription will include <strong>up to three Guidebooks</strong>. We want
       to give you a chance to experience the guides before you commit. That's
@@ -26,8 +26,8 @@
     <ul>
       <li>
         <strong>For our existing users</strong>, your access to the guides will
-        remain free until October 1, 2025. After that, you'll be able to sign up
-        for the free 30-day trial.
+        remain free until December 1, 2025. After that, you'll be able to sign
+        up for the free 30-day trial.
       </li>
       <li>
         <strong>For our new users</strong>, you can enjoy the first 30 days of
