@@ -444,29 +444,6 @@
                           </div>
                         </div>
                       </div>
-                      <div
-                        class="et_pb_column et_pb_column_1_3 et_pb_column_36 et_pb_css_mix_blend_mode_passthrough et-last-child"
-                      >
-                        <div
-                          class="et_pb_module et_pb_blurb et_pb_blurb_8 et_animated et_pb_text_align_left et_pb_blurb_position_top et_pb_bg_layout_light et_pb_with_background"
-                        >
-                          <div class="et_pb_blurb_content">
-                            <div class="et_pb_blurb_container">
-                              <h4 class="et_pb_module_header">
-                                <span>Free, Forever</span>
-                              </h4>
-                              <div class="et_pb_blurb_description">
-                                <p style="font-weight: 400; color: white">
-                                  <span
-                                    >Build digital welcome books for up to 10
-                                    properties, at no cost.</span
-                                  >
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                   <div class="et_pb_section et_pb_section_8 et_section_regular">
