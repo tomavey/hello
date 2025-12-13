@@ -884,6 +884,22 @@ footer.et-l--footer {
   color: #893393;
 }
 
+div.themes {
+  height: 900px;
+  background: #f7f7fa;
+  border-radius: 18px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 12px 0 rgba(140, 76, 219, 0.08);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  div.themes {
+    height: 500px;
+  }
+}
+
 @media (max-width: 900px) {
   .et_pb_row {
     flex-direction: column;
@@ -895,6 +911,9 @@ footer.et-l--footer {
 }
 
 @media (max-width: 600px) {
+  div.themes {
+    height: 300px;
+  }
   .et_pb_section {
     border-radius: 0;
     box-shadow: none;
