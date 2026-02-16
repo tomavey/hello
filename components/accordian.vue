@@ -73,6 +73,10 @@ const faqItems = [
     question: "Is there a cost to use Everhost?",
     answer: `There is no cost for a new Everhost account that allows for the creation of up to three Guidebooks for a 30-day free trial.<br><br>After the 30 days you can continue to provide up to five guidebooks to guests for a small subsciption of $5 per month or $50 per year. 10 guidebooks cost only $100 per year or you can select the Pro option for 100 guidebooks anymany new branding options. If you would like to know more, <a href="mailto:tom@everhost.com">Email Us</a> to discuss how you can leverage Everhost to create happy guests and grow your business.`,
   },
+  {
+    question: "Is there a Pro option?",
+    answer: `<strong>Pro Features</strong><br>Unlock powerful tools to elevate your digital guidebook experience<br><br><strong>Custom Backgrounds</strong><br>Use an image from your local area or property as the background of your digital guidebook<br><br><strong>White Label</strong><br>Add your linked company name and logo at the bottom of the main page<br><br><strong>Custom Url</strong><br>Customize your url. Give your guests a custom url to access your digital guide. ie: give them everhost.io/amazingcabin rather then everhost.io/1234567<br><br><strong>100 Properties</strong><br>You can create up to 100 property guides`,
+  },
 ];
 </script>
 
