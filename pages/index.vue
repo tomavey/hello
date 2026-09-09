@@ -3,27 +3,7 @@
     <div id="et-boc" class="et-boc">
       <header class="et-l et-l--header">
         <div class="et_builder_inner_content et_pb_gutters3">
-          <div
-            style="
-              display: flex;
-              align-items: center;
-              gap: 1rem;
-              margin-bottom: 1rem;
-            "
-          >
-            <img
-              src="/images/everhost.png"
-              alt="Everhost Logo"
-              style="height: 48px; width: auto"
-            />
-            <a
-              class="et_pb_button et_pb_button_two et_pb_bg_layout_light dsm-none"
-              href="https://manage.everhost.io/"
-              data-dsm-lightbox-id="dsm_button_two_lightbox dsm_button_0_tb_header"
-              style="float: right; margin-left: auto; margin-top: 1%"
-              >Login</a
-            >
-          </div>
+          <SiteHeader />
         </div>
       </header>
       <div id="et-main-area">
