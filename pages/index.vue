@@ -66,13 +66,6 @@
                                 target="_blank"
                                 data-dsm-lightbox-id="dsm_button_one_lightbox dsm_button_0"
                                 >View Demo</a
-                              ><a
-                                class="et_pb_button et_pb_button_two et_pb_custom_button_icon et_pb_bg_layout_light dsm-none"
-                                Benefit
-                                data-icon="&#xf144;"
-                                data-dsm-lightbox-id="dsm_button_two_lightbox dsm_button_0"
-                                @click.prevent="isModalOpen = true"
-                                >Watch video</a
                               >
                             </div>
                           </div>
@@ -102,9 +95,7 @@
                       </div>
                     </div>
                   </div>
-                  <modal v-model="isModalOpen">
-                    <Youtube />
-                  </modal>
+                  <Youtube />
                   <div
                     class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular"
                   >
@@ -531,7 +522,6 @@ import { ref, computed } from "vue";
 import Benefit from "~/components/benefit.vue";
 const showTranslate = ref(false);
 
-const isModalOpen = ref(false);
 const year = computed(() => new Date().getFullYear());
 
 const themes = ref([
