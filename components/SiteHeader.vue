@@ -38,25 +38,25 @@
 }
 
 .eh-header-link {
-  color: #6c4ad3;
+  color: var(--eh-purple);
   font-weight: 600;
   text-decoration: none;
   padding: 0.55em 0.9em;
-  border-radius: 5px;
+  border-radius: var(--eh-radius);
   transition: background 0.2s, color 0.2s;
 }
 
 .eh-header-link:hover,
 .eh-header-link--active {
   background: rgba(108, 74, 211, 0.08);
-  color: #893393;
+  color: var(--eh-magenta);
 }
 
 .eh-header-login {
-  background: linear-gradient(90deg, #6c4ad3 0%, #893393 100%);
+  background: var(--eh-gradient);
   color: #fff !important;
   border: none;
-  border-radius: 5px;
+  border-radius: var(--eh-radius);
   padding: 0.75em 2em;
   font-weight: 600;
   font-size: 1.1em;
