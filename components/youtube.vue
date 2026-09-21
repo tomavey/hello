@@ -13,7 +13,7 @@
           <div class="et_pb_text_inner">
             <p>
               With Everhost you can create a welcome book in less than 10
-              MINUTES!
+              MINUTES! Try it FREE!
             </p>
           </div>
         </div>
