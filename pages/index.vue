@@ -15,7 +15,7 @@ useHead({
     {
       name: "description",
       content:
-        "Digital welcome books that help hosts offer a 5-star stay. Start free, then choose Standard or Pro.",
+        "A digital guidebook for vacation rentals. Guests open one link for Wi-Fi, house rules, and local tips. Try 3 guidebooks free for 30 days.",
     },
   ],
 });

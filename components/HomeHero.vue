@@ -1,13 +1,12 @@
 <template>
   <section class="hero">
     <h1>
-      10-15% More Bookings With
+      Fewer Guest Messages With
       <span class="gradient-text">Everhost</span>
     </h1>
     <p class="hero-lede">
-      Immediately offer guests a 5-star experience by providing everything
-      needed before arrival and during their stay. Learn how Everhost can help
-      grow your business.
+      Guests get Wi-Fi, the door code, house rules, and local tips in one link
+      or QR code. You answer fewer of the same messages.
     </p>
     <div class="hero-actions">
       <a

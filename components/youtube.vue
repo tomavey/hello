@@ -1,8 +1,8 @@
 <template>
   <section id="heroVid" class="video-section">
     <p class="video-heading">
-      With Everhost you can create a welcome book in less than 10 MINUTES! Try
-      it FREE!
+      Create a welcome book in less than 10 minutes. Try 3 guidebooks free for
+      30 days.
     </p>
     <div class="video-box">
       <iframe
