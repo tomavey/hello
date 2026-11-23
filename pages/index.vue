@@ -1,6 +1,7 @@
 <template>
   <HomeHero />
   <Youtube />
+  <HomeQuotes />
   <HomePlans />
   <section class="faq">
     <h2>Questions</h2>
